@@ -6,7 +6,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import java.time.LocalDate;
 
-@Entity
+// 更新注释
+@Entity//20234069杨宗霖
 public class JobPosting {
     
     @Id
