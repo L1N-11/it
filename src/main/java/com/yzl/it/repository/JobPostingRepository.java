@@ -6,7 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
+// 更新注释
+@Repository//20234069杨宗霖
 public interface JobPostingRepository extends JpaRepository<JobPosting, Long> {
     
     // 按企业名称查询
